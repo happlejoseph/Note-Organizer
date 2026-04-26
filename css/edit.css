@@ -1,0 +1,69 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+}
+
+/* Main container */
+.container {
+    max-width: 500px;
+    margin: 70px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Focus effect */
+input:focus, textarea:focus {
+    border-color: #007bff;
+}
+
+/* Textarea size */
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #28a745; /* green for update */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover */
+button:hover {
+    background: #218838;
+}

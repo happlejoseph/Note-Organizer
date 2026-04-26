@@ -1,4 +1,5 @@
 
+
 let notesContainer = document.getElementById('notes');
 
 let allNotes = JSON.parse(localStorage.getItem("notes")) || [];
@@ -29,4 +30,12 @@ function deleteNote (index) {
     displayNotes ();
     
 }
+function goBack() {
+    window.location.href = '../index.html';
+}
+
+function editNote(index) {
+    window.location.href = `edit.html?index=${index}`;
+}
+
 displayNotes ();
